@@ -1,5 +1,6 @@
 import React from 'react'
 import './about.css';
+import pdf from './sunil.pdf'
 
 function About() {
 return (
@@ -38,7 +39,7 @@ return (
         </div>
     </div>
     <div className="about-cta">
-        <a href="" className='cta' download={true}>Download Resume</a>
+        <a href="sunil.pdf" className='cta' download={true}>Download Resume</a>
     </div>
 </section>
 )
